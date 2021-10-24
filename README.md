@@ -1,0 +1,1 @@
+# kuritaro1122.github.io
