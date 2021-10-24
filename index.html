@@ -1,13 +1,34 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <title>タイトル</title>
-  </head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | REFLECT</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/56b27af957420c10aef972428bfcf1ed.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/4b74fd03523dfb8509ddfe2b0e09f87d.json", {onProgress: UnityProgress});
+    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167616041-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-167616041-1');
+</script> 
+ </head>
   <body>
-    <!-- ここに書きたい内容を書く -->
-    <h1>
-      Hello World!!
-      I am Kuritaro
-    </h1>
-  </body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">REFLECT</div>
+      </div>
+    </div>  
+</body>
 </html>

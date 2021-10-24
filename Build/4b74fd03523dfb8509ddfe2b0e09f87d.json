@@ -1,0 +1,19 @@
+{
+"companyName": "DefaultCompany",
+"productName": "REFLECT",
+"productVersion": "1.4",
+"dataUrl": "bf513c6ca7fd205703f57b17069885c9.unityweb",
+"asmCodeUrl": "6f42ffe6130016787843de379e909e23.unityweb",
+"asmMemoryUrl": "6175b63d801a94cc9fbdf3604ef49507.unityweb",
+"asmFrameworkUrl": "065006e8de1674f9e3b8438e4c0a573f.unityweb",
+"asmSymbolsUrl": "d9e33bdc475d3d4f59360fbc177f3f7e.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.13f1"
+}
